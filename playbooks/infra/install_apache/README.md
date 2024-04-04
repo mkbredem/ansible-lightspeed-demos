@@ -9,7 +9,6 @@ The demo illustrates:
 * Generate multi-task suggestions
 * How you can use natural language prompts to create a functional playbook
 
-
 ## Demo preparation if not using Instruqt environment
 
 1. Install the VS Code extension and activate Ansible Lightspeed using resources in the [getting started guide](../../../docs/getting_started.md).
@@ -53,8 +52,6 @@ Run the steps below in the [./playbooks/infra/install_apache/demo_install_apache
 You can can choose to run the `demo_install_apache.yml` Playbook using **Ansible automation controller** (formerly Ansible Tower) or  `ansible-navigator`.
 
 ### **Option 1: Using automation controller - Instruqt only!**
-
-
 
 ### **Option 2: using ansible-navigator**
 
