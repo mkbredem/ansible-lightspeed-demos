@@ -41,7 +41,7 @@ Run the steps below in the [./playbooks/cloud/aws/demo_provision_aws_instance.ym
 
 ### Step 1
 
-#### Generate multi-task `# Gather info from subnet called subnet-lightspeed & create vpc_subnet_id var`
+#### Generate multi-task `# Get subnet-lightspeed info & create vpc_subnet_id var`
 
 - Used natural language prompt to generate syntactically correct Ansible Playbook Task.
 - Suggestion incorporated Ansible best practices and used Fully Qualified Collection Name (FQCN).
@@ -50,10 +50,10 @@ Run the steps below in the [./playbooks/cloud/aws/demo_provision_aws_instance.ym
 
 ### Step 2
 
-#### Uncomment and generate task `- name: Provision t3.small instance using ec2_instance var`
+#### Uncomment and generate task `- name: Create t3.small instance using my_instance var`
 
 - Used details specified in the prompt. For example, "t3.small"
-- The suggestion used the "ec2_instance" variable declared in the "vars:" section.
+- The suggestion used the "my_instance" variable declared in the "vars:" section.
 
 ### Step 3
 
