@@ -42,6 +42,7 @@
         vpc_subnet_id: "{{ subnet_info.subnets[0].id }}"
 
 ################################################# INSTRUCTIONS TASK 3 #################################################
+# Uncomment the line just after this instructions block and Press "ENTER" at the end.
 # Press "TAB" to accept suggestion.
 # Note - The suggestion used the "my_instance" variable declared in the "vars:" section.
 #######################################################################################################################
