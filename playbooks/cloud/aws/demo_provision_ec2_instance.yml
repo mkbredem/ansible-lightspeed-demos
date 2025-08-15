@@ -5,7 +5,7 @@
   gather_facts: false
 
   module_defaults:
-    group/aws:
+    amazon.aws.ec2_vpc_subnet_info:
       region: us-east-1
 
   vars:
