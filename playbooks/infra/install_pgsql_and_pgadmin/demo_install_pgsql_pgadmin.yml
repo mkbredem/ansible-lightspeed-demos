@@ -34,7 +34,6 @@
 # Task 2 note - The suggestion used simple request and provided the correct terminal command to use.
 #               The suggestion is idempotent. An Ansible best-practice
 # Task 3 note - The suggestion used the Playbook context to know it should start the "postgresql service".
-# Task 4 note - The suggestion used the correct default PostgreSQL TCP port (5432).
 #######################################################################################################################
 
     # Do initial postgresql config & start the service & allow the traffic through the firewall
